@@ -1,11 +1,18 @@
 import styled from '@emotion/styled';
 
 export const Table = styled.table`
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-color: #ffffff;
     table-layout: fixed;
-    margin: 0 auto;
     width: 300px;
     border-collapse: collapse;
     box-shadow: 1px 1px 4px #565656;
+    opacity: 0;
+    visibility: none;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(0);
 
     th,
     td {

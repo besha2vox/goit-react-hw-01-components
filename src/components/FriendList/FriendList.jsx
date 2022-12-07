@@ -6,7 +6,11 @@ import {
 } from './FriendList.styled';
 
 export function FriendList(props) {
-    return <FriendUnnumberedList>{template(props)}</FriendUnnumberedList>;
+    return (
+        <FriendUnnumberedList data-action="id-3">
+            {template(props)}
+        </FriendUnnumberedList>
+    );
 }
 
 function template({ friends }) {

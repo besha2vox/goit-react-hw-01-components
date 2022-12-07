@@ -1,14 +1,21 @@
 import styled from '@emotion/styled';
 
 export const Section = styled.section`
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-color: #ffffff;
     margin: 50px auto;
     width: 300px;
     box-shadow: 1px 1px 4px #565656;
     border-radius: 16px;
     overflow: hidden;
     height: fit-content;
-    }
-    
+    opacity: 0;
+    visibility: none;
+    pointer-events:none;
+    transform: translate(-50%, -50%) scale(0);
+    }    
 `;
 
 export const SectionTitle = styled.h2`

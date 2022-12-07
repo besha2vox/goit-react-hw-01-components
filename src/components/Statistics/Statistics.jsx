@@ -9,7 +9,7 @@ import PropTypes from 'prop-types';
 
 export function Statistics({ title, stats }) {
     return (
-        <Section>
+        <Section data-action="id-2">
             <SectionTitle>{title}</SectionTitle>
             <StatsList>{template(stats)}</StatsList>
         </Section>

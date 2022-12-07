@@ -2,7 +2,7 @@ import { Table, Thead, Tbody } from './TransactionHistory.styled';
 
 export function TransactionHistory(props) {
     return (
-        <Table>
+        <Table data-action="id-4">
             <Thead>
                 <tr>
                     <th>Type</th>

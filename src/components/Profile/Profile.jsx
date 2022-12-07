@@ -18,7 +18,7 @@ export function Profile({
     stats: { followers, views, likes },
 }) {
     return (
-        <ProfileCard>
+        <ProfileCard data-action="id-1">
             <Description>
                 <img src={avatar} alt="User avatar" className="avatar" />
                 <UserName>{username}</UserName>

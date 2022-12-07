@@ -1,12 +1,19 @@
 import styled from '@emotion/styled';
 
 export const ProfileCard = styled.div`
-    margin: 50px auto;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-color: #ffffff;
     width: 300px;
     box-shadow: 1px 1px 4px #565656;
     border-radius: 16px;
     overflow: hidden;
     height: fit-content;
+    opacity: 0;
+    visibility: none;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(0);
 
     :hover {
         box-shadow: 2px 2px 8px #363636;
