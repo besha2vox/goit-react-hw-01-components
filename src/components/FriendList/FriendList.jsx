@@ -29,4 +29,3 @@ FriendList.propTypes = {
 };
 
 export { FriendList };
-p;
